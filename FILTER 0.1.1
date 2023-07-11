@@ -187,3 +187,11 @@ ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
 @@||inklinkor.com^$domain=tii.la
 bazadecrypto.com##+js(nostif, myinfoey, 1500)
 bazadecrypto.com##body:style(display: block !important)
+bigbtc.win##^script:has-text(block-adb)
+!#if !cap_html_filtering
+bigbtc.win##+js(rmnt, script, block-adb)
+!#endif
+@@||bigbtc.win^$ghide
+bigbtc.win###block-adb-enabled
+bigbtc.win###main, #ielement:style(display: block !important;)
+bigbtc.win##div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
