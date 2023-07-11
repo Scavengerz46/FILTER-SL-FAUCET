@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Description: annoyances-cookie
+! Description: cosmetic change
 ! Filters optimized for uBlock Origin, to be used with EasyList's
 
 !#if env_mobile
